@@ -10,13 +10,13 @@ Well today, we are going to see how can grab the id from the url using vanilla J
 
 ## Main Concept
 
-### Window.location
+- Window.location
 
-> `location` is is a window property that contains information about the current Document. Document referes to the page that is being rendered.
+> `location` is is a window property that contains information about the current Document. Document refers to the page that is being rendered.
 
-### URLSearchParams API
+- URLSearchParams API
 
-Accoding to MDN:
+According to [MDN](https://developer.mozilla.org/en-US/docs/Web/API/URLSearchParams):
 
 > The URLSearchParams API defines utility methods that can be used to manipulate the URL string like ours here: `"https://myshop.com/products?id=1"`
 
@@ -30,7 +30,7 @@ Oh yeah! when invoked, the `window.location` returns an object with all the info
 
 As you can see, there is plenty of information right there 👆👆
 
-With this knowlege of the `window.location` property, we are just one property away from getting the parameters from our link `https://myshop.com/products?id=1`
+With this knowledge of the `window.location` property, we are just one property away from getting the parameters from our link `https://myshop.com/products?id=1`
 
 Let me expand the previous object so that you can see how close we are:
 ![Image description](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/fk4hz822k4tyefau7jrt.png)
@@ -71,9 +71,9 @@ console.log(id);
 
 ## Key Takeaways
 
-- `window.location` is a proerty that returns all the information regarding the current Document.
+- `window.location` is a property that returns all the information regarding the current Document.
 
-- `URLSearchParams API` allows us to manipuate urls.
+- `URLSearchParams API` allows us to manipulate urls.
 
 - `window.location.search` returns the `search` property which contains the list of our url queries.
 - Together, `URLSearchParams API` and `window.location.search` can help us extract search parameters from a url.
