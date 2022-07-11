@@ -1,6 +1,6 @@
-# Differences between Single and Double Quotes in Bash
+# Writable Objects Properties?
 
-We all know how to create objects in JavaScript. For instance, we can create a car object as follows:
+We all know how to create objects in JavaScript. For instance, if we can create a car object as follows:
 
 ```js
 const car = {};
@@ -31,19 +31,11 @@ In the above snippet, we have:
 
 This construct works just fine and as you can see, when we log the car object, we get back a nice car object.
 
-## Writable & Non-writable Prorties
+## Writable & Non-writable Objects
 
 Yeah, in JavaScript it is possible to dictate whether your object should be writable or not.
 
 ## How?
-
-Using the `Object.defineProperties()` method, we can configure our properits.
-
-The method takes in two arguments:
-
-1. object to define propeties or modify properties
-
-1. props which is an object whose keys are names of properties of the object. The value of these keys are objects containing the actual data descriptor to be configured to be configured as writable or non-writable.
 
 Let us see how this can be done. We will define the same object but in a slightly different way.
 
