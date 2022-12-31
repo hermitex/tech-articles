@@ -1,17 +1,18 @@
 # All topics for ruby tutorials
 
 1. Introduction to Ruby
-2. Working with Variables and Data Types
-3. Control Flow and Loops
-4. Working with Arrays and Hashes
-5. Object-Oriented Programming in Ruby
-6. Working with Strings and Regular Expressions
-7. Working with Files and Directories
-8. Debugging and Error Handling
-9. Working with Databases
-10. Creating Web Applications with Ruby on Rails
-11. Testing and Refactoring Code
-12. Performance Optimization in Ruby
-13. Integrating Ruby with Other Languages and Technologies
-14. Deploying Ruby Applications
-15. Advanced Ruby Topics
+2. Working with Variables
+3. Working with Data Types
+4. Control Flow and Loops
+5. Working with Arrays and Hashes
+6. Object-Oriented Programming in Ruby
+7. Working with Strings and Regular Expressions
+8. Working with Files and Directories
+9. Debugging and Error Handling
+10. Working with Databases
+11. Creating Web Applications with Ruby on Rails
+12. Testing and Refactoring Code
+13. Performance Optimization in Ruby
+14. Integrating Ruby with Other Languages and Technologies
+15. Deploying Ruby Applications
+16. Advanced Ruby Topics
